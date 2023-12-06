@@ -50,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            m_Movement.Set(horizontal*2.5f, 0f, vertical*2.5f);
+            m_Movement.Set(horizontal*2f, 0f, vertical*2f);
         }
     }
 
