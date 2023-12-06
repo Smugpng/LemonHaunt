@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class LookAround : MonoBehaviour
 {
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
     public float rotationSpeed = 15f;
@@ -16,4 +17,5 @@ public class LookAround : MonoBehaviour
     {
         transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
     }
+
 }
